@@ -8,26 +8,39 @@
 </head>
 <body>
     <Form method="post" target="_blank">
-        <label for="username" id="username"> Full Name </label>
-        <input type="text" name="username" id="username" placeholder="Enter your name"> <br>
-        <label for="useremail" id="useremail"> email</label>
-        <input type="text" name="useremail" id="useremail" placeholder="eg:seth@azubiafrica.com"> <br>
-        <label for="age" id="age"> Age</label>
-        <input type="number" name="age" id="age"> <br>
+        <label for="username"> Full Name </label>
+        <input type="text" name="username" id="username" placeholder="Enter your name">
+          <br>
+        <label for="useremail"> email</label>
+        <input type="text" name="useremail" id="useremail" placeholder="eg:seth@azubiafrica.com">
+          <br>
+        <label for="age"> Age</label>
+        <input type="number" name="age" id="age">
+          <br>
         <label for="birthdate"> Date of birth</label>
-        <input type="date" name="birthdate"> <br>
-        <label for="Phonenumber" id=""> Phone number</label>
-        <input type="tel" name="Phonenumber" min="10" max="13"> <br>
-        <label for="Country" id="Country"> Country of Residence</label> 
+        <input type="date" name="birthdate" id="birthdate">
+          <br>
+        <label for="Phonenumber"> Phone number</label>
+        <input type="tel" name="Phonenumber" id="Phonenumber" min="10" max="13"> 
+          <br>
+        <label for="Country"> Country of Residence</label> 
            <select id="Country" name="Country">
              <option value="GH"> Ghana </option>
              <option value="NG"> Nigeria</option>
              <option value="KE"> Kenya</option>
              <option value="GA">Gabon</option> 
-              <br>
+            </select>
+            <br>
         <label for="gender"> Gender</label>
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="Female"> Female <br>
+        <input type="radio" name="gender" id="gender" value="male"> Male
+        <input type="radio" name="gender" id="gender" value="Female"> Female
+           <br>
+        <label for="message"> Enter Additional Comment</label> <br>
+        <textarea name="message" id="message" cols="30" rows="10">Enter Addional Comment</textarea>
+           <br>
+        <input type="submit" value="Submit Form">
+
+        
     </Form>
 </body>
 </html>
